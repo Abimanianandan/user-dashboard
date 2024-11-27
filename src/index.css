@@ -1,0 +1,7 @@
+.hover:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+.user{
+  background-color: rgb(212, 201, 201);
+}
