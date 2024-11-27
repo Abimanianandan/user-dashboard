@@ -35,12 +35,8 @@ const UserDetails = () => {
     <div className="container">
         <Navbar/>
       <div className="row row-cols-1 row-cols-md-3 g-4 m-5">
-      <ul>
-        {userData.map(user => (
-            <li key={user.id}>{user.name} - {user.email}</li>
-        ))}
-    </ul>
-        {/* {userData.map((item,index)=>{
+     
+        {userData.map((item,index)=>{
             return(
                 <div className="col" key={index}>
                 <div className="card hover shadow p-3 mb-5 bg-body-tertiary rounded">
@@ -60,7 +56,7 @@ const UserDetails = () => {
                 </div>
               </div>
             )
-        })} */}
+        })}
       </div>
     </div>
   );
